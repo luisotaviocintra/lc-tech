@@ -11,7 +11,7 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/#" className="flex items-center space-x-2">
             <div className="p-2 rounded-lg bg-gradient-to-br from-tech-blue to-tech-cyan">
               <Cpu className="w-6 h-6 text-white" />
             </div>
@@ -21,7 +21,7 @@ const Header = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link 
-              to="/" 
+              to="/#" 
               className="text-muted-foreground hover:text-tech-cyan transition-colors duration-300"
             >
               Início
@@ -40,7 +40,7 @@ const Header = () => {
             </Link>
             <TechButton variant="techPrimary" size="sm">
               <a
-                href="https://wa.me/5516992677961?text=Preciso%20de%20um%20orçamento"
+                href="https://wa.me/5516996322368?text=Preciso%20de%20um%20orçamento"
                 target="_blank"
                 rel="noopener noreferrer"
               >

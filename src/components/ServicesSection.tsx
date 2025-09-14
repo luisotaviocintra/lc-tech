@@ -60,7 +60,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-tech-gray/20">
+    <section id="servicos" className="py-20 bg-gradient-to-b from-background to-tech-gray/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -142,7 +142,7 @@ const ServicesSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <TechButton variant="techNeon" size="lg" className="group">
                 <a
-                  href="https://wa.me/5516992677961?text=Preciso%20de%20um%20orçamento"
+                  href="https://wa.me/5516996322368?text=Preciso%20de%20um%20orçamento"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

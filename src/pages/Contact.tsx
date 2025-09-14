@@ -64,14 +64,14 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Telefone",
-      content: "(16) 99267-7961",
-      action: () => window.location.href = "tel:+5516992677961"
+      content: "(16) 99632-2368",
+      action: () => window.location.href = "tel:+5516996322368"
     },
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: "WhatsApp",
-      content: "(16) 99267-7961",
-      action: () => window.open("https://wa.me/5516992677961", "_blank")
+      content: "(16) 99632-2368",
+      action: () => window.open("https://wa.me/5516996322368", "_blank")
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -274,7 +274,7 @@ const Contact = () => {
               <TechButton 
                 variant="techNeon" 
                 size="lg"
-                onClick={() => window.open("https://wa.me/5516992677961", "_blank")}
+                onClick={() => window.open("https://wa.me/5516996322368", "_blank")}
                 className="group"
               >
                 <MessageCircle className="w-5 h-5" />

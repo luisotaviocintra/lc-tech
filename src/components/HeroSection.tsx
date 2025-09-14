@@ -58,7 +58,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <TechButton variant="techNeon" size="xl" className="group">
               <a
-                href="https://wa.me/5516992677961?text=Preciso%20de%20um%20orçamento"
+                href="https://wa.me/5516996322368?text=Preciso%20de%20um%20orçamento"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -67,8 +67,10 @@ const HeroSection = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </TechButton>
             <TechButton variant="techGhost" size="xl" className="group">
-              <Code2 className="w-5 h-5" />
-              Nossos Serviços
+              <a href="#servicos" className="flex items-center gap-2">
+                <Code2 className="w-5 h-5" />
+                Nossos Serviços
+              </a>
             </TechButton>
           </div>
 
